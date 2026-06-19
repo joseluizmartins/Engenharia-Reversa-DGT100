@@ -100,6 +100,7 @@ O DGP/M é o CP/M 2.2 original da Digital Research localizado para o português 
 ---
 
 ## Como Usar as ROMs no Emulador
+Ainda apresentam alguns erros, não está planamente funcional, mas já executa o boot e comandos do BASIC.
 
 ```bash
 # trs80gp (Windows/Linux)
