@@ -4,7 +4,7 @@
 
 Repositório de engenharia reversa completa das ROMs do computador nacional **DGT-100** (também comercializado como DGT-1000), fabricado pela **Digitus** durante o período de reserva de mercado de informática no Brasil. Inclui análise das ROMs, desassembly Z80, emulador mínimo e análise dos discos do sistema operacional **DGP/M** (CP/M localizado para português).
 
-**O que este estudo descobriu**
+**O que este estudo descobriu:**
 O DGT-100 é um computador brasileiro original que usou o mapa de memória do TRS-80 Modelo I como inspiração, mas construiu em cima disso um sistema completamente próprio — com barramento de dados invertido, BASIC em português (DIGBASIC II), debugger embutido (DIGBUG), mecanismo de boot proprietário, e um CP/M localizado (DGP/M) com arquitetura de disco invertida. Uma máquina muito mais sofisticada do que parece à primeira vista, e um objeto de preservação histórica importante para a computação nacional.
 
 
