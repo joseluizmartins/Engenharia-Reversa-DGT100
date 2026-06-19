@@ -95,7 +95,7 @@ O DGT-100 tem um boot loader proprietário em `ROM 0x06BA` que carrega 256 bytes
 
 ### 6. DGP/M — CP/M em Português
 
-O DGP/M é o CP/M 2.2 original da Digital Research localizado para o português pela Digitus. Os discos têm arquitetura invertida: o BDOS fica na **última trilha** (trilha 34), e todos os dados estão invertidos (XOR 0xFF), como os EPROMs.
+O DGP/M é o CP/M 2.2 original da Digital Research localizado para o português pela Digitus. Os discos têm arquitetura invertida: o BDOS fica na **última trilha** (trilha 34, no CP/M fica nas trilhas 0 e 1), e todos os dados estão invertidos (XOR 0xFF), como os EPROMs.
 
 ---
 
