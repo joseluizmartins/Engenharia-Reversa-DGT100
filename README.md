@@ -131,7 +131,7 @@ make
 
 ## Como Gravar nos EPROMs Físicos (clone)
 
-Os arquivos em `roms/patched/eprom/` estão prontos para gravar diretamente nos chips AM2716 com qualquer programador de EPROM. Cada arquivo corresponde a um chip:
+Os arquivos em `roms/patched/eprom/` estão prontos para gravar diretamente nos chips 2716 com qualquer programador de EPROM. Cada arquivo corresponde a um chip:
 
 | Arquivo | Chip | Endereço na placa |
 |---|---|---|
