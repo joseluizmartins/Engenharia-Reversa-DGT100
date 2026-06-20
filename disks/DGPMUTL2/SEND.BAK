@@ -1,0 +1,16 @@
+END.agina+1;
+            Write('Pressione [ENTER]');
+            BufLen:=0;
+            Read;
+            ClrScr;
+            GotoXY(10,1);
+            Write('Listando: ',Nome);
+            GotoXY(40,1);
+            WriteLn('Pagina: ',Pagina);
+            WriteLn;
+          END
+      UNTIL Eof(Arq);
+      Close(Arq)
+    END
+  ELSE
+    WriteLn('Arquivo nao encontrado.')

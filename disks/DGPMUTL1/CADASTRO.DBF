@@ -1,0 +1,26 @@
+,17 SAT '4 -> VOLTA AO MENU PRINCIPAL'
+        @ 22,0 SAY 'OPCAO -> ' GET OPCAO
+        READ
+        ERASE
+        DO CASE
+        * Relatorio de fornecedores
+        CASE OPCAO = '1'
+          @ 12,30 SAY 'IMPRIMINDO'
+          SET CONSOLE OFF
+          REPORT FORM CADASTRO TO PRINT FOR TIPO = 'FORNECEDOR'
+          SET CONSOLE ON
+        * Relatorio de clientes
+        CASE OPCAO = '2'
+          @ 12,30 SAY 'IMPRIMINDO'
+          SET CONSOLE OFF
+          REPORT FORM CADASTRO TO PRINT FOR T           @ 6,43 SAY 'CIDADE: ' GET CIDADE
+            @ 6,71 SAY 'UF: ' GET ESTADO
+            @ 8,3 SAY 'FONE: ' GET FONE
+            @ 8,30 SAY 'FALAR C/ ' GET RESP
+            @ 10,3 SAY 'CGC: ' GET CGC
+            @ 10,28 SAY 'INSC: ' GET INSC
+            @ 12,3 SAY 'ULTIMA COMPRA: ' GET COMPROU PICTURE '99/99/99'
+            @ 12,28 SAY 'VALOR TOTAL Cz$' GET VALOR
+            @ 14,3 SAY 'NF No. ' GET NF
+            @ 14,30 SAY 'VENDIDO POR: ' GET VENDEDOR
+            @ 16,3 SAY 'CONDICOES D
