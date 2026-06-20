@@ -18,14 +18,14 @@ Repositório de engenharia reversa completa das ROMs do computador nacional **DG
 │   └── DGPM_ANALISE.md          ← análise dos discos DGP/M
 ├── roms/
 │   ├── original/                ← dumps originais (dados invertidos, como no hardware)
-│   │   ├── AM2716_U28_ROM1.BIN
-│   │   ├── AM2716_U29_ROM2.BIN
-│   │   ├── AM2716_U30_ROM3.BIN
-│   │   ├── AM2716_U31_ROM4.BIN
-│   │   ├── AM2716_U32_ROM5.BIN
-│   │   ├── AM2716_U33_ROM6.BIN
-│   │   ├── AM2716_U34_ROM7.BIN
-│   │   └── AM2716_CHAR.BIN
+│   │   ├── U28_ROM1.BIN
+│   │   ├── U29_ROM2.BIN
+│   │   ├── U30_ROM3.BIN
+│   │   ├── U31_ROM4.BIN
+│   │   ├── U32_ROM5.BIN
+│   │   ├── U33_ROM6.BIN
+│   │   ├── U34_ROM7.BIN
+│   │   └── CHAR.BIN
 │   ├── corrected/               ← ROMs corrigidas (XOR 0xFF, para análise e emulação)
 │   │   ├── DGT100_FULL_14KB.BIN ← ROM completa concatenada
 │   │   └── DGT100_CHAR.BIN
