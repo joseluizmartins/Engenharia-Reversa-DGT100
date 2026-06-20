@@ -41,6 +41,7 @@ Repositório de engenharia reversa completa das ROMs do computador nacional **DG
 │           └── DGT100_U34_ROM7.BIN
 ├── disasm/
 │   └── DGT100_full.asm          ← desassembly completo (~8800 linhas)
+│   └── DGT100_annotated.asm     ← desassembly com alguns comentários - Atualizando sempre
 ├── emulator/
 │   ├── dgt100_emu.c             ← emulador mínimo em C (libz80ex)
 │   ├── Makefile
